@@ -4,6 +4,8 @@
 
 [![Code Climate](https://codeclimate.com/github/FuriKuri/helpme.png)](https://codeclimate.com/github/FuriKuri/helpme)
 
+[![Build Status](https://travis-ci.org/FuriKuri/helpme.svg?branch=master)](https://travis-ci.org/FuriKuri/helpme)
+
 TODO: Write a gem description
 
 ## Installation
