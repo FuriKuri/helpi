@@ -1,5 +1,7 @@
 # Helpme
 
+[![Gem Version](https://badge.fury.io/rb/helpme.svg)](http://badge.fury.io/rb/helpme)
+
 TODO: Write a gem description
 
 ## Installation
