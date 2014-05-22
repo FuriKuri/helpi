@@ -7,8 +7,8 @@ Gem::Specification.new do |spec|
   spec.name          = "helpme"
   spec.version       = Helpme::VERSION
   spec.authors       = ["Theo Pack"]
-  spec.email         = ["theo.pack@cologne-intelligence.de"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
+  spec.email         = ["theo.pack@gmail.com"]
+  spec.summary       = %q{A little command line helper.}
   spec.description   = %q{TODO: Write a longer description. Optional.}
   spec.homepage      = ""
   spec.license       = "MIT"
