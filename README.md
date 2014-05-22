@@ -2,6 +2,8 @@
 
 [![Gem Version](https://badge.fury.io/rb/helpme.svg)](http://badge.fury.io/rb/helpme)
 
+[![Code Climate](https://codeclimate.com/github/FuriKuri/helpme.png)](https://codeclimate.com/github/FuriKuri/helpme)
+
 TODO: Write a gem description
 
 ## Installation
