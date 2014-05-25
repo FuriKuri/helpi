@@ -6,7 +6,7 @@
 
 [![Build Status](https://travis-ci.org/FuriKuri/helpme.svg?branch=master)](https://travis-ci.org/FuriKuri/helpme)
 
-TODO: Write a gem description
+This will be a little command line tool helper.
 
 ## Installation
 
