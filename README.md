@@ -14,8 +14,9 @@ This will be a little command line tool helper.
 
 ## Usage
 
-TODO: Write usage instructions here
-
+```
+helpme <tool> <tool args>
+```
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/helpme/fork )
