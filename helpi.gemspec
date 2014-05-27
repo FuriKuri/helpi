@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["theo.pack@gmail.com"]
   spec.summary       = %q{A little command line helper.}
   spec.description   = %q{A little command line helper.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/FuriKuri/helpi"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
