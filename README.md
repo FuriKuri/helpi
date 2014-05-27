@@ -1,25 +1,25 @@
-# Helpme
+# Helpy
 
-[![Gem Version](https://badge.fury.io/rb/helpme.svg)](http://badge.fury.io/rb/helpme)
+[![Gem Version](https://badge.fury.io/rb/helpy.svg)](http://badge.fury.io/rb/helpy)
 
-[![Code Climate](https://codeclimate.com/github/FuriKuri/helpme.png)](https://codeclimate.com/github/FuriKuri/helpme)
+[![Code Climate](https://codeclimate.com/github/FuriKuri/helpy.png)](https://codeclimate.com/github/FuriKuri/helpy)
 
-[![Build Status](https://travis-ci.org/FuriKuri/helpme.svg?branch=master)](https://travis-ci.org/FuriKuri/helpme)
+[![Build Status](https://travis-ci.org/FuriKuri/helpy.svg?branch=master)](https://travis-ci.org/FuriKuri/helpy)
 
 This will be a little command line tool helper.
 
 ## Installation
 
-    $ gem install helpme
+    $ gem install helpy
 
 ## Usage
 
 ```
-helpme <tool> <tool args>
+helpy <tool> <tool args>
 ```
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/helpme/fork )
+1. Fork it ( https://github.com/furikuri/helpy/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

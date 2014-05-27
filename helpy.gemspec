@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'helpme/version'
+require 'helpy/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "helpme"
-  spec.version       = Helpme::VERSION
+  spec.name          = "helpy"
+  spec.version       = Helpy::VERSION
   spec.authors       = ["Theo Pack"]
   spec.email         = ["theo.pack@gmail.com"]
   spec.summary       = %q{A little command line helper.}
