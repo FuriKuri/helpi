@@ -1,10 +1,9 @@
 # Helpi
 
 [![Gem Version](https://badge.fury.io/rb/helpi.svg)](http://badge.fury.io/rb/helpi)
-
 [![Code Climate](https://codeclimate.com/github/FuriKuri/helpi.png)](https://codeclimate.com/github/FuriKuri/helpi)
-
 [![Build Status](https://travis-ci.org/FuriKuri/helpi.svg?branch=master)](https://travis-ci.org/FuriKuri/helpi)
+[![Dependency Status](https://gemnasium.com/FuriKuri/helpi.svg)](https://gemnasium.com/FuriKuri/helpi)
 
 This will be a little command line tool helper.
 
