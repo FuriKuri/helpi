@@ -17,9 +17,6 @@ This will be a little command line tool helper.
 ```
 helpi <tool> <tool args>
 ```
-## ToDo
-### Translate
-### Gist
 
 ## Contributing
 
