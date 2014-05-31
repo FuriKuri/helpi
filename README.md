@@ -17,6 +17,10 @@ This will be a little command line tool helper.
 ```
 helpi <tool> <tool args>
 ```
+## ToDo
+### Translate
+### Gist
+
 ## Contributing
 
 1. Fork it ( https://github.com/furikuri/helpi/fork )
