@@ -4,7 +4,6 @@
 [![Code Climate](https://codeclimate.com/github/FuriKuri/helpi.png)](https://codeclimate.com/github/FuriKuri/helpi)
 [![Build Status](https://travis-ci.org/FuriKuri/helpi.svg?branch=master)](https://travis-ci.org/FuriKuri/helpi)
 [![Dependency Status](https://gemnasium.com/FuriKuri/helpi.svg)](https://gemnasium.com/FuriKuri/helpi)
-[![Coverage Status](https://img.shields.io/coveralls/FuriKuri/helpi.svg)](https://coveralls.io/r/FuriKuri/helpi)
 
 This will be a little command line tool helper.
 
