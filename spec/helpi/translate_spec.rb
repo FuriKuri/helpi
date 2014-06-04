@@ -1,4 +1,5 @@
 require 'helpi/translate'
+require_relative '../spec_helper'
 
 describe Translate do
   it "translate words" do

@@ -1,4 +1,5 @@
 require 'helpi/github_gist'
+require_relative '../spec_helper'
 
 describe GithubGist do
   it "upload a file" do
