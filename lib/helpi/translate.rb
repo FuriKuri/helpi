@@ -4,6 +4,6 @@ class Translate
   end
 
   def help
-    "Print help here"
+    "Help"
   end
 end
