@@ -7,14 +7,13 @@ class GitHubAuthorization
   end
 
   def access_token
-    'token'
+    existing_access_code
   end
 
   private
   def existing_access_code
-    js = @gh_resource.get
-    json = JSON.parse(js)
-    json.each do |app|
+    apps = JSON.parse(@gh_resource.get)
+    apps.each do |app|
       app_name = app['app']['name']
       return app['token'] if app_name == 'Demo4 (API)'
     end
@@ -22,8 +21,8 @@ class GitHubAuthorization
   end
 
   def create_new_app
-    js = @gh_resource.post '{ "scopes" : ["gist"], "note" : "Demo4" }'
-    json = JSON.parse(js)
+    response = @gh_resource.post '{ "scopes" : ["gist"], "note" : "Demo4" }'
+    json = JSON.parse(response)
     json['token']
   end
 end
