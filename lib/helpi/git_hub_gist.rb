@@ -1,4 +1,4 @@
-class GithubGist
+class GitHubGist
   def run
     "Gist"
   end
