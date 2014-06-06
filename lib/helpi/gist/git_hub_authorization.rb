@@ -15,13 +15,13 @@ class GitHubAuthorization
     apps = JSON.parse(@gh_resource.get)
     apps.each do |app|
       app_name = app['app']['name']
-      return app['token'] if app_name == 'Demo4 (API)'
+      return app['token'] if app_name == 'helpi (API)'
     end
     create_new_app
   end
 
   def create_new_app
-    response = @gh_resource.post '{ "scopes" : ["gist"], "note" : "Demo4" }'
+    response = @gh_resource.post '{ "scopes" : ["gist"], "note" : "helpi" }'
     json = JSON.parse(response)
     json['token']
   end
