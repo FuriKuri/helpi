@@ -4,11 +4,11 @@ require_relative '../spec_helper'
 describe GitHubGist do
   it "upload a file" do
     gist = GitHubGist.new
-    gist.run.should == "Gist"
+    expect(gist.run).to eq("Gist")
   end
 
   it "has a help text" do
     gist = GitHubGist.new
-    gist.help.should == "Help"
+    expect(gist.help).to eq("Help")
   end
 end
