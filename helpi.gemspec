@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "helpi"
   spec.version       = Helpi::VERSION
   spec.authors       = ["Theo Pack"]
-  spec.email         = ["theo.pack@gmail.com"]
+  spec.email         = ["tf.pack@gmail.com"]
   spec.summary       = %q{A little command line helper.}
   spec.description   = %q{A little command line helper.}
   spec.homepage      = 'https://github.com/FuriKuri/helpi'
