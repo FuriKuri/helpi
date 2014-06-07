@@ -1,14 +1,14 @@
-require 'helpi/git_hub_gist'
+require 'helpi/gist'
 require_relative '../spec_helper'
 
-describe GitHubGist do
+describe Gist do
   it "upload a file" do
-    gist = GitHubGist.new
+    gist = Gist.new
     expect(gist.run).to eq("Gist")
   end
 
   it "has a help text" do
-    gist = GitHubGist.new
+    gist = Gist.new
     expect(gist.help).to eq("Help")
   end
 end
