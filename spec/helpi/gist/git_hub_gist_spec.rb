@@ -1,5 +1,5 @@
 require_relative '../../spec_helper'
-require 'helpi/gist/git_hub_gist'
+require 'helpi/github/git_hub_gist'
 require 'rest_client'
 
 describe GitHubGist do
