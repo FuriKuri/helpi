@@ -6,9 +6,9 @@ class GitHubGist
     @access_token = access_token
   end
 
-  def create
+  def create(filename)
     result = RestClient::Resource.new 'https://api.github.com/gists'
-    response = result.post create_gist(nil), :Authorization => "token #{@access_token}"
+    response = result.post create_gist(filename), :Authorization => "token #{@access_token}"
     JSON.parse(response)["html_url"]
   end
 
