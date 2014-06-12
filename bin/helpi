@@ -1,3 +1,7 @@
 #!/usr/bin/env ruby
 
 puts "Hello World"
+puts "Print arguments"
+ARGV.each do|a|
+  puts "Argument: #{a}"
+end
