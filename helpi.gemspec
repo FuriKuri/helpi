@@ -5,7 +5,7 @@ require 'helpi'
 
 Gem::Specification.new do |spec|
   spec.name          = "helpi"
-  spec.version       = Helpi::VERSION
+  spec.version       = Helpi.version
   spec.authors       = ["Theo Pack"]
   spec.email         = ["tf.pack@gmail.com"]
   spec.summary       = %q{A little command line helper.}
