@@ -1,6 +1,6 @@
-require '/helpi/formatter'
-require '/helpi/gist'
-require '/helpi/translate'
+require 'helpi/formatter'
+require 'helpi/gist'
+require 'helpi/translate'
 
 module Helpi
   def self.version
