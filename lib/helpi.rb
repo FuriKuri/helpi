@@ -1,4 +1,6 @@
 
 module Helpi
-  VERSION = "0.0.2"
+  def self.version
+    "0.0.2"
+  end
 end

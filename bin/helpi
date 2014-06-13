@@ -1,7 +1,11 @@
 #!/usr/bin/env ruby
 
+require 'helpi'
+
 puts "Hello World"
 puts "Print arguments"
 ARGV.each do|a|
   puts "Argument: #{a}"
 end
+
+Helpi::Translate.new.run
