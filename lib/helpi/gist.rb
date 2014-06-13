@@ -4,9 +4,9 @@ require 'helpi/github/git_hub_authorization'
 module Helpi
   class Gist
     def run(username, password, filename)
-      authorization = GitHubAuthorization.new username, password
+      authorization = Helpi::GitHub::GitHubAuthorization.new username, password
       access_token = authorization.access_token
-      gist = GitHubGist.new access_token
+      gist = Helpi::GitHub::GitHubGist.new access_token
       gist.create filename
       "Gist"
     end
