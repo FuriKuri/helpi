@@ -1,2 +1,4 @@
-class Formatter
+module Helpi
+  class Formatter
+  end
 end
