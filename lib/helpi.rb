@@ -1,6 +1,6 @@
-require File.dirname(__FILE__) + '/helpi/formatter'
-require File.dirname(__FILE__) + '/helpi/gist'
-require File.dirname(__FILE__) + '/helpi/translate'
+require '/helpi/formatter'
+require '/helpi/gist'
+require '/helpi/translate'
 
 module Helpi
   def self.version
