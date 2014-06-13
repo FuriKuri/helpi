@@ -3,7 +3,7 @@ require 'json'
 
 module Helpi
   module GitHub
-    class GitHubAuthorization
+    class Authorization
       def initialize(user, password)
         @gh_resource = RestClient::Resource.new 'https://api.github.com/authorizations', user, password
       end

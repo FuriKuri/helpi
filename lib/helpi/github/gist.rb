@@ -2,7 +2,7 @@ require 'rest_client'
 require 'json'
 module Helpi
   module GitHub
-    class GitHubGist
+    class Gist
       def initialize(access_token)
         @access_token = access_token
       end

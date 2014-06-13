@@ -1,12 +1,12 @@
-require 'helpi/github/git_hub_gist'
-require 'helpi/github/git_hub_authorization'
+require 'helpi/github/gist'
+require 'helpi/github/authorization'
 
 module Helpi
   class Gist
     def run(username, password, filename)
-      authorization = Helpi::GitHub::GitHubAuthorization.new username, password
+      authorization = Helpi::GitHub::Authorization.new username, password
       access_token = authorization.access_token
-      gist = Helpi::GitHub::GitHubGist.new access_token
+      gist = Helpi::GitHub::Gist.new access_token
       gist.create filename
       "Gist"
     end
